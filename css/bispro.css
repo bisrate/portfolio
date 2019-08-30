@@ -1,0 +1,173 @@
+body{
+    background-image: url('../img/black.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+}
+nav ul li{
+  display: inline;
+    
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;  
+}
+a:link, a:visited{
+   text-decoration: none;
+   font-size: 28px;
+   font-family:'Quicksand', sans-serif;
+   font-weight: bold;
+   color: whitesmoke;
+         
+}
+
+.content{
+      margin-left: 10%;
+      margin-top: 10%;
+      width: 1000px;
+      height: 650px;
+      float: left;
+      color: antiquewhite;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 40px; 
+        margin-left: 25%;
+        width: 150%;
+        animation-duration: 30s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%; 
+        }
+      
+        75% {
+          font-size: 300%;
+          margin-left: 25%;
+          width: 150%;
+        }
+      
+        to {
+          margin-left: 10px;
+          width: 100%;
+        }
+      }
+      
+  }
+  .gmail{
+    width: 150px;
+    height: 250px;
+    float: left;
+    position: absolute;
+top: 100px; left: 660px 
+}
+.face{
+    width: 100px;
+    height: 150px;
+    float: left;
+    position: absolute;
+    top: 100px; left: 550px;
+}
+.instagram{
+    width: 90px;
+    height: 130px;
+}
+.award{
+    text-align: left;
+    font-family: 'Quicksand', sans-serif; 
+    margin-top: 70px; right: 20px;
+    color: antiquewhite;
+    font-size: 35px;
+    }
+.bis{
+    width: 90px;
+    height: 130px;
+   
+    
+}
+.instagram{ 
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    color: antiquewhite;
+    margin-top: 20px; right: 20px;
+}
+
+.avatar{
+    width: 400px;
+    height: 450px;
+    margin-left: 20%;
+    margin-top: 85px;
+   border-radius: 90px;
+   z-index: 0;  
+}
+.my-name{
+    box-shadow: 2px rgb(248, 242, 242);
+    color: whitesmoke;
+    margin-left: 40%;
+    z-index: 1;
+    font-family:'Quicksand', sans-serif;
+    animation-duration: 30s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+      }
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%; 
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+      
+}
+h1{
+    font-family:'Quicksand', sans-serif;
+    line-height: 400px;
+    color: antiquewhite;
+    font-size: 50px;
+    margin-top: -1%;
+
+}
+
+.menu-pic{
+    margin: 5px;
+    width: 3px;
+    height: 2px;
+    display: inline-block;
+}  
+.box {
+    font-size: 20px;
+    color: antiquewhite;
+    font-family:'Quicksand', sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    transition: width 15s, height 15s, background-color 2s, transform 2s;
+}
+
+.box:hover {
+    background-color: brown;
+    width: 300px;
+    height: 50px;
+    transform: rotate(360deg);
+}
+.contact1{
+color:black;
+background-repeat: no-repeat;
+background-size: cover;
+margin: auto;
+margin-top: 1%;
+width: 40%;
+height: 90%;
+color: white;
+font-size:20px;
+margin-right: 28%;
+background-color: white ;
+}
